@@ -1,10 +1,15 @@
-# vue-easteregg
-
-``` javascript
 <template>
   <div id="app">
-    {{ title }}
-    <easteregg @easter="test" :eggs="eggs" duration="5000">EASTER EGG</easteregg>
+    <h1>{{ title }}</h1>
+
+    <h4>No config : up up down down left right left right b a</h4>
+    <easteregg>EASTER EGG</easteregg>
+
+    <h4>Change title: easter or up down</h4>
+    <easteregg @easter="test" :eggs="eggs"></easteregg>
+
+    <h4>Visibility duration: duration</h4>
+    <easteregg :duration="5000" :eggs="dureggs">5 seconds</easteregg>
   </div>
 </template>
 
@@ -19,6 +24,9 @@ export default {
       eggs: [ 
         'easter',
         [ 'ArrowUp', 'ArrowDown' ]
+      ],
+      dureggs: [ 
+        'duration'
       ]
     }
   },
@@ -36,4 +44,7 @@ export default {
   }
 }
 </script>
-```
+
+<style>
+
+</style>
