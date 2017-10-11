@@ -1,6 +1,6 @@
 {
   "name": "vue-easteregg",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easter egg for vue js apps",
   "main": "dist/index.js",
   "author": "David Grill <grilldotcom@gmail.com>",

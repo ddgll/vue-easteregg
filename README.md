@@ -1,5 +1,7 @@
 # vue-easteregg
 
+ADD an easter egg to your vue app ;)
+
 ``` javascript
 <template>
   <div id="app">
