@@ -1,1 +1,3 @@
-export * from './easteregg.vue'
+import easteregg from './easteregg.vue'
+
+export default easteregg
