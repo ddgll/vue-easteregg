@@ -1,3 +1,6 @@
+# VUE3 Version: https://github.com/ddgll/vue3-easteregg
+
+
 # vue-easteregg
 
 ADD an easter egg to your vue app ;)
